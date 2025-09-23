@@ -1,4 +1,4 @@
-# school_py 
+# school_IT
 
 ## What can I use it for?
 
