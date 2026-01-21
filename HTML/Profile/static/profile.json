@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Emir „Energydrink“ Türkmen",
+    "image": "Emir9e.png",
+    "alt": "Emir",
+    "description": "Hat mehr Akku als jedes Schul-iPad."
+  },
+  {
+    "name": "Max „Blitz“ Müller",
+    "image": "max.jpg",
+    "alt": "Max",
+    "description": "Rennt schneller als das WLAN."
+  },
+  {
+    "name": "Kevin „LAN-Party“ Lapokowski",
+    "image": "Kevin9e.png",
+    "alt": "Kevin",
+    "description": "Hat einen USB-Stick für alles. Auch für Dinge, die keiner gefragt hat."
+  },
+  {
+    "name": "Lena „Chrono-Chaos“ Kullmann",
+    "image": "Lena9e.png",
+    "alt": "Lena",
+    "description": "Ist pünktlich… nur in einer anderen Zeitzone."
+  },
+  {
+    "name": "Jonas",
+    "image": "jonas.jpg",
+    "alt": "Jonas",
+    "description": "Jo-Jo-Jonas"
+  },
+  {
+    "name": "Bauer",
+    "image": "bauer.jpg",
+    "alt": "Bauer",
+    "description": "Er Baut an"
+  }
+]

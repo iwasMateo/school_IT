@@ -1,0 +1,56 @@
+body {
+    background-color: #9de2ed;
+    text-align: center;
+}
+    .kartenreihe {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap
+}
+#titelding {color: blue;}
+.karte {
+background-color: #ffffff;
+margin: 10px;
+border: 2px solid gray;
+padding: 12px;
+width: 260px;
+}
+.profil {
+width: 300px;
+background-color: #FFFFFF;
+border-width: 2px;
+border-style: solid;
+border-color: #11373d;
+padding: 20;
+text-align: center;
+}
+.profil div{
+    margin: 5px;
+    border-style: solid;
+    border-width: 1px; 
+    border-color: #8d9191;
+    background-color: #f5f5f5;
+    padding: 10px;
+}
+.profil img {
+    height: 220px;
+    width: 220px;
+}
+.profil p {text-wrap: balance;}
+.normal_text {
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    align-items: center;
+    justify-content: center;
+     align-items: right;
+}
+.submit{
+    border: 2px solid;
+    margin: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding: 4px;
+    background-color: aliceblue;
+}
