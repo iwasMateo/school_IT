@@ -8,7 +8,7 @@ import os
 app = Flask(__name__, static_folder="static")
 
 FILE = os.path.join("static", "profile.json")
-UPLOAD_FOLDER=os.path.join(".", "static")
+UPLOAD_FOLDER=os.path.join(".", "static/images/")
 
 @app.get("/")
 def index():

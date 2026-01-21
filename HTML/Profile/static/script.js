@@ -8,7 +8,7 @@ fetch("/static/profile.json")
       profilDiv.className = "profil";
 
       profilDiv.innerHTML = `
-        <img src="/static/${profile.image}" alt="${profile.alt}" class="profilbild">
+        <img src="/static/images/${profile.image}" alt="${profile.alt}" class="profilbild">
         <div>
           <h3>${profile.name}</h3>
           <div>
