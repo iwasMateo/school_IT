@@ -2,41 +2,25 @@
 <head>
     <title>Clone</title>
     <link rel="icon" href="/static/icon.svg">
-    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/index-style.css">
+    <link rel="stylesheet" href="/static/sidebar-style.css">
 </head>
 <body>
-    <div class="layout">
+<div class="layout">
   <aside class="sidebar">
-    <h3><a>This link goes somewhere</a></h3>
-    <h3>TEXT</h3>
-    <h3><a>This link goes somewhere</a></h3>
-    <h3>TEXT</h3>
-    <h3><a>This link goes somewhere</a></h3>
-    <h3>TEXT</h3>
-    <h3><a>This link goes somewhere</a></h3>
-    <h3>TEXT</h3>
-    <h3><a>This link goes somewhere</a></h3>
-    <h3>TEXT</h3>
-    <h3><a>This link goes somewhere</a></h3>
-    <h3>TEXT</h3>
-    <h3><a>This link goes somewhere</a></h3>
-    <h3>TEXT</h3>
-    <h3><a>This link goes somewhere</a></h3>
-    <h3>TEXT</h3>
-    <h3><a>This link goes somewhere</a></h3>
-    <h3>TEXT</h3>
-    <h3><a>This link goes somewhere</a></h3>
-    <h3>TEXT</h3>
-    <h3><a>This link goes somewhere</a></h3>
-    <h3>TEXT</h3>
-    <h3><a>This link goes somewhere</a></h3>
-    <h3>TEXT</h3>
-    <h3><a>This link goes somewhere</a></h3>
-    <h3>TEXT</h3>
-    <h3><a>This link goes somewhere</a></h3>
-    <h3>TEXT</h3>
-    <h3><a>This link goes somewhere</a></h3>
-    <h3>TEXT</h3>
+    <div class="top-side">
+        <a src="index.html"><img src="/static/icon.svg" alt="iServ"></a>
+        <details class="dropdown">
+            <summary class="dropdown-btn">Name</summary>
+            <div class="dropdown-content">
+            <a href="/subsites/profile.html">Mein Konto</a>
+            <a href="/subsites/notif.html">Benachrichtigungen</a>
+            <a href="/subsites/settings.html">Einstellungen</a>
+            <a href="/subsites/info.html">Informationen</a>
+            <button on-click="logout">Abmelden</button>
+            </div>
+        </details>
+    </div>
     
   </aside>
   <div id="main-content">

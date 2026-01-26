@@ -1,0 +1,10 @@
+.sidebar {
+  width: 20%;
+  overflow-y: auto;
+  background: #262626;
+  height: 100%;
+   min-height: 0;
+   overscroll-behavior: contain;
+   padding-left: 10px;
+   padding-right: 5px;
+}
